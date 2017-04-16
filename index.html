@@ -13,7 +13,7 @@
 		<p id="heading">SNACKERDOODLE</p>
 		<input id="searchRec" type="text" placeholder="Search for Recipes">
 		<input id="searchIng" type="text" placeholder="Search Ingredients (seperate with commas)">
-		<button id="searchBtn" ng-click="showFood"></button>
+		<button id="searchBtn" ng-click="showFood()"></button>
 		<hr>
 		<div class="recipes" ng-repeat="x in food">
 			<h2>{{x.title}}</h2>
