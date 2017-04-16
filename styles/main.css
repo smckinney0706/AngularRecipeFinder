@@ -1,14 +1,32 @@
-/*#headerBox {
+@font-face {
+	font-family: futura;
+    src: url(../fonts/futura.ttc);
+}
+@font-face {
+	font-family: futuraCond;
+    src: url(../fonts/futuraCondMed.ttc);
+}
+@font-face {
+	font-family: rosebud;
+    src: url(../fonts/rosebudAntique.ttf);
+}
+body {
+	background-color: #cad28d;
+}
+#headerBox {
 	background-image: url("../images/vegetables.jpg");
 	width: 1300px;
 	height: 800px;
 	background-size: cover;
-    margin-top: -100px;
+    margin-top: -200px;
+    margin-left: -20px;
     text-align: center;
     
 }
-h1 {
-	padding-top: 500px;
+#heading {
+	font-family: rosebud;
+	font-size: 100px;
+	padding-top: 530px;
 }
 #searchRec, #searchIng {
 	display: block;
@@ -17,27 +35,41 @@ h1 {
 	padding-left: 10px;
 }
 #searchRec {
-	width: 400px;
-	height: 25px;
+	font-family: futura;
+	font-size: 16px;
+	margin-top: -90px;
+	width: 450px;
+	height: 30px;
 	border: 3px solid #d50103;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 #searchIng {
+	font-family: futura;
 	width: 300px;
-	height: 15px;
+	height: 20px;
 	border: 3px solid #fa8e00;
-	margin-bottom: 10px;
+	
 }
 #searchBtn {
 	background-image: url("../images/searchBtn.png");
 	background-color: white;
 	position: relative;
-	top: -70px;
-	left: 190px;
+	top: -75px;
+	left: 215px;
 	width: 20px;
 	height: 20px;
 	background-size: contain;
 	background-position: center;
 	border: none;
 
-}*/
+}
+hr {
+	position: relative;
+	top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 25px;
+	background-color: #d50103;
+	color: #d50103;
+	border: 0 none;
+}

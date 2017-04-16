@@ -10,15 +10,15 @@
 <div ng-app="foodApp" ng-controller="foodCtrl">
 
 	<div id="headerBox">
-		<h1>SNACKERDOODLE</h1>
+		<p id="heading">SNACKERDOODLE</p>
 		<input id="searchRec" type="text" placeholder="Search for Recipes">
 		<input id="searchIng" type="text" placeholder="Search Ingredients (seperate with commas)">
 		<button id="searchBtn" ng-click="showFood"></button>
 		<hr>
-		<!-- <div class="recipes" ng-repeat="x in food">
+		<div class="recipes" ng-repeat="x in food">
 			<h2>{{x.title}}</h2>
-			<img src="{{x.poster}}" />
-		</div> -->
+			<img src="{{x.thumbnail}}" />
+		</div>
 
 	</div>
 
