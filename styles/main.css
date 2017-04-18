@@ -61,7 +61,7 @@ body {
 	background-size: contain;
 	background-position: center;
 	border: none;
-
+	cursor: pointer;
 }
 hr {
 	position: relative;
@@ -72,4 +72,65 @@ hr {
 	background-color: #d50103;
 	color: #d50103;
 	border: 0 none;
+	margin-bottom: 60px;
+}
+.recipes {
+	width: 200px;
+	height: 350px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.recipes img {
+	width: 140px;
+	height: 140px;
+	border: 5px solid #cad28d;
+	border-radius: 5px;
+}
+h2 {
+border-radius: 5px;
+padding-top: 15px;
+line-height: 20px;
+width: 175px;
+height: 60px;
+font-family: futura;
+font-size: 12px;
+padding: 5px;
+background-color: #fa8e00;
+margin-left: auto;
+margin-right: auto;
+
+}
+#recipeContain {
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#link {
+	width: 200px;
+	height: 40px;
+	margin-top: 0px;
+}
+#link a {
+	
+	color: #d50103;
+	text-decoration: none;
+	font-size: 8px;
+	font-family: futuraCond;
+	padding: 10px;
+	line-height: 5px;
+}
+#ing {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 150px;
+	font-family: futuraCond;
+	font-size: 10px;
+	color: #fa8e00;
+	font-weight: bold;
 }
